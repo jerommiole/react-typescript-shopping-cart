@@ -1,26 +1,56 @@
 [
     {
       "id": 1,
-      "name": "Book",
-      "price": 10.99,
-      "imgUrl": "/imgs/book.jpg"
+      "name": "Tiger",
+      "price": 9.99,
+      "imgUrl": "/imgs/1.png"
     },
     {
       "id": 2,
-      "name": "Computer",
-      "price": 1199,
-      "imgUrl": "/imgs/computer.jpg"
+      "name": "Dolphin",
+      "price": 9.99,
+      "imgUrl": "/imgs/2.png"
     },
     {
       "id": 3,
-      "name": "Banana",
-      "price": 1.05,
-      "imgUrl": "/imgs/banana.jpg"
+      "name": "Elephant",
+      "price": 9.99,
+      "imgUrl": "/imgs/3.png"
     },
     {
       "id": 4,
-      "name": "Car",
-      "price": 14000,
-      "imgUrl": "/imgs/car.jpg"
+      "name": "Mouse",
+      "price": 9.99,
+      "imgUrl": "/imgs/4.png"
+    },
+    {
+      "id": 5,
+      "name": "Fox",
+      "price": 9.99,
+      "imgUrl": "/imgs/5.png"
+    },
+    {
+      "id": 6,
+      "name": "Horse",
+      "price": 9.99,
+      "imgUrl": "/imgs/6.png"
+    },
+    {
+      "id": 7,
+      "name": "Lion",
+      "price": 9.99,
+      "imgUrl": "/imgs/7.png"
+    },
+    {
+      "id": 8,
+      "name": "Monkey",
+      "price": 9.99,
+      "imgUrl": "/imgs/8.png"
+    },
+    {
+      "id": 9,
+      "name": "Polar Bear",
+      "price": 9.99,
+      "imgUrl": "/imgs/9.png"
     }
   ]
