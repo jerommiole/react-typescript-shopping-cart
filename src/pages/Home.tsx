@@ -30,7 +30,11 @@ export function Home() {
                             <h2 className="text-light">React TypeScript</h2>
                             <h1 className="text-light">Shopping Cart</h1>
                             <br />
-                            <Button href="/store" className="btn btn-light">Go to Store</Button>
+                            <Button href="/store" style={{ 
+                                backgroundColor: '#f97a15',
+                                borderColor: '#f97a15',
+                                color: 'white'
+                                }}>Go to Store</Button>
                         </div>
                     </Row>
                 </Container>

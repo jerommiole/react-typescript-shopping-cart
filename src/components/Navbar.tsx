@@ -5,16 +5,16 @@ import { useShoppingCart } from "../context/ShoppingCartContext"
 export function Navbar() {
     const { openCart, cartQuantity } = useShoppingCart()
     return (
-        <NavbarBs sticky="top" className="bg-white shadow-sm mb-3">
+        <NavbarBs sticky="top" className="bg-dark shadow-sm mb-3" style={{ border: "1px solid grey" }}>
             <Container>
                 <Nav className="me-auto">
-                    <Nav.Link to="/" as={NavLink}>
+                    <Nav.Link to="/" as={NavLink} className="text-light">
                         Home
                     </Nav.Link>
-                    <Nav.Link to="/store" as={NavLink}>
+                    <Nav.Link to="/store" as={NavLink} className="text-light">
                         Store
                     </Nav.Link>
-                    <Nav.Link to="/about" as={NavLink}>
+                    <Nav.Link to="/about" as={NavLink} className="text-light">
                         About
                     </Nav.Link>
                 </Nav>
