@@ -6,7 +6,7 @@ import LogoImage from "../../public/imgs/jrom.png"
 export function Navbar() {
     const { openCart, cartQuantity } = useShoppingCart()
     return (
-        <NavbarBs sticky="top" className="bg-dark shadow-sm mb-3" style={{ border: "1px solid grey" }}>
+        <NavbarBs sticky="top" className="bg-dark shadow-sm mb-3" style={{ borderBottom: "1px solid grey" }}>
             <Container>
                 <Nav className="me-auto">
                     <Nav.Link to="https://jrom.webflow.io/" as={NavLink}>
