@@ -1,4 +1,4 @@
-import { Button, Col, Container, Image, Row } from "react-bootstrap"
+import { Col, Container, Image, Row } from "react-bootstrap"
 import HomeImage1 from "../../public/imgs/7.png"
 import HomeImage2 from "../../public/imgs/9.png"
 import HomeImage3 from "../../public/imgs/1.png"
