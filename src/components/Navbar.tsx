@@ -1,6 +1,7 @@
-import { Button, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
+import { Button, Image, Container, Nav, Navbar as NavbarBs } from "react-bootstrap"
 import { NavLink } from "react-router-dom"
 import { useShoppingCart } from "../context/ShoppingCartContext"
+import LogoImage from "../../public/imgs/jrom.png"
 
 export function Navbar() {
     const { openCart, cartQuantity } = useShoppingCart()
@@ -8,21 +9,21 @@ export function Navbar() {
         <NavbarBs sticky="top" className="bg-dark shadow-sm mb-3" style={{ border: "1px solid grey" }}>
             <Container>
                 <Nav className="me-auto">
+                    <Nav.Link to="https://jrom.webflow.io/" as={NavLink}>
+                        <Image src={LogoImage} width={80} style={{ marginRight: '5vw' }}/>
+                    </Nav.Link>
                     <Nav.Link to="/" as={NavLink} className="text-light">
                         Home
                     </Nav.Link>
                     <Nav.Link to="/store" as={NavLink} className="text-light">
                         Store
                     </Nav.Link>
-                    <Nav.Link to="/about" as={NavLink} className="text-light">
-                        About
-                    </Nav.Link>
                 </Nav>
                 {cartQuantity > 0 && (
                     <Button 
                         onClick={openCart}
                         style={{ width: "3rem", height: "3rem", position: "relative" }}
-                        variant="outline-primary"
+                        variant="outline-warning"
                         className="rounded-circle">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

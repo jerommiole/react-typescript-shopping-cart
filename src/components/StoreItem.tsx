@@ -19,33 +19,49 @@ StoreItemProps) {
     
     const quantity = getItemQuantity(id)
     return (
-        <Card className="h-100">
-            <Card.Img 
-                variant="top" 
-                src={imgUrl} 
-                height="200px" 
-                style={{objectFit: "cover"}}
-            />
-            <Card.Body className="d-flex flex-column">
+        <Card className="h-100" style={{
+            border: '1px solid grey',
+            borderRadius: '0'
+        }}>
+            <Card.Img src={imgUrl} style={{ borderRadius: '0'}}/>
+            <Card.Body className="d-flex flex-column bg-dark text-light">
                 <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
-                    <span className="fs-2">{name}</span>
-                    <span className="ms-2 text-muted">{formatCurrency(price)}</span>
+                    <h3 className="fs-2">{name}</h3>
+                    <span className="ms-2">{formatCurrency(price)}</span>
                 </Card.Title>
                 <div className="mt-auto">
                     {quantity === 0 ? (
-                        <Button className="w-100" onClick={() => increaseCartQuantity(id)}>+ Add To Cart</Button>
+                        <Button className="w-100" onClick={() => increaseCartQuantity(id)} style={{ 
+                            backgroundColor: '#f97a15',
+                            borderColor: '#f97a15',
+                            color: 'white'
+                         }}>
+                            + Add To Cart
+                        </Button>
                     ):  
                     <div className="d-flex align-items-center flex-column" 
                         style={{ gap: ".5rem"}}>
                         <div className="d-flex align-items-center justify-content-center"
                             style={{ gap: ".5rem"}}>
-                            <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
+                            <Button onClick={() => decreaseCartQuantity(id)} style={{ 
+                                backgroundColor: '#f97a15',
+                                borderColor: '#f97a15',
+                                color: 'white'
+                             }}>
+                                -
+                            </Button>
                             <div>
                                 <span className="fs-3">{quantity}</span> in cart
                             </div>
-                            <Button onClick={() => increaseCartQuantity(id)}>+</Button>
+                            <Button onClick={() => increaseCartQuantity(id)} style={{ 
+                                backgroundColor: '#f97a15',
+                                borderColor: '#f97a15',
+                                color: 'white'
+                             }}>
+                                +
+                            </Button>
                         </div>
-                        <Button variant="danger" size="sm" onClick={() => removeFromCart(id)}>Remove</Button>
+                        <Button variant="danger" size="sm" onClick={() => removeFromCart(id)} className="mt-2">Remove</Button>
                     </div>
                     }
                 </div>
