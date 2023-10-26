@@ -1,27 +1,17 @@
-# React + TypeScript + Vite
+# React TypeScript Shopping Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### My website is a showcase of my web development skills, centered around a seamless and user-friendly "Add to Cart" functionality. Built with React, TypeScript, and adorned with a visually pleasing design using Tailwind CSS, it's a testament to the power of modern web technologies.
+The images featured on my website are not your standard stock photos. They are AI-generated, thanks to the integration with the Midjourney platform. Each product image is a work of art created in the digital realm, adding a touch of sophistication to the entire shopping journey.
 
-Currently, two official plugins are available:
+![1](https://github.com/jerommiole/react-typescript-shopping-cart/assets/8807678/944e9355-f913-4003-a890-ae3101eafaa5)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features:
+- React and TypeScript: These technologies power the core of my website, ensuring a highly responsive and reliable "Add to Cart" feature.
+- Tailwind CSS: The visual design of my website is brought to life through the elegant styling of Tailwind CSS, enhancing the overall user experience.
+- AI-Generated Images: My website stands out thanks to its integration with the Midjourney platform, which provides visually stunning AI-generated product images that make the shopping experience unique.
 
-## Expanding the ESLint configuration
+![2](https://github.com/jerommiole/react-typescript-shopping-cart/assets/8807678/217637a4-9d9c-4beb-aa46-4376690852c0)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![3](https://github.com/jerommiole/react-typescript-shopping-cart/assets/8807678/48a611c2-d257-4300-a667-6c7a7eb13936)
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Join me in embracing the power of technology and user-friendly functionality in the world of online shopping. Start your journey with my website now!
